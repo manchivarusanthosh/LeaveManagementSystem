@@ -11,18 +11,18 @@
   
   .nav-content {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
-    width: 85%;
-    max-width: 1110px;
-    padding-top: 25px;
+    width: 95%;
+    max-width: 1510px;
+    padding-top: 10px;
     padding-bottom: 25px;
-    padding-left: 15px;
+    padding-left: 10px;
   }
   @media screen and (max-width: 768px) {
     .nav-content {
       flex-direction: column;
-      width: 100%;
+      width: 95%;
       padding-right: 15px;
     }
   }
@@ -51,14 +51,10 @@
   
   @media screen and (min-width: 768px) {
     .website-logo {
-      width: 165px;
+      width: 100px;
     }
   }
-  .display-flex{
-      display: flex;
-      align-items: flex-end;
-      
-  }
+  
 
   .nav-menu {
     display: flex;
