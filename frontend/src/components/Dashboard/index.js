@@ -15,7 +15,9 @@ const Dashboard = () => {
     return (
         <div>
             <Header />
-            <h1 className="dashboard-container">Dashboard</h1>
+            <div className="dashboard-container">
+                <
+            </div>
             <Footer />
         </div>
     )
