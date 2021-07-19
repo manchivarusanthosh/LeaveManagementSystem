@@ -36,7 +36,7 @@ const Header = () => {
                     alt="website logo"
                 />
                 <ul className="nav-menu">
-                    <Link className="nav-menu-item" to="/dashboard">
+                    <Link className="nav-menu-item" to="/home/dashboard">
                         <li >Dashboard</li>
                     </Link>
                     <Link className="nav-menu-item" to='/leaverequest'>
