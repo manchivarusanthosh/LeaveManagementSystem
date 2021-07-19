@@ -18,7 +18,8 @@
   }
   .portfolio-container {
     display: flex;
-    flex-direction: row;
+    
+    flex-direction: column;
     margin: 1%;
     width: 95%;
   }
@@ -26,14 +27,11 @@
   @media screen and (min-width: 768px) {
     .portfolio-container {
       justify-content: center;
+      flex-direction: row;
       max-width: 1250px;
     }
   }
   
-
-
-
-
 .portfolio-body {
   display: flex;
   flex-direction: column;
