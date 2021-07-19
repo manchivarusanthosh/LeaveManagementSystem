@@ -10,6 +10,7 @@ const Dashboard = () => {
     if (jwtToken===undefined){
         return <Redirect to="/login"/>
     }
+    // Dashboard running
     return (
         <div>
             <Header />
