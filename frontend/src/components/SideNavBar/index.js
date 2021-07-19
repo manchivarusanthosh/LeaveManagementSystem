@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import SideNav, { MenuIcon } from 'react-simple-sidenav';
+import SideNav from 'react-simple-sidenav';
 import pcsLogo from '../Images/pcs_logo.png'
 import { Link } from 'react-router-dom';
 import './index.css'
