@@ -8,16 +8,16 @@ import SideNavBar from '../SideNavBar'
 
 const Dashboard = () => {
     const jwtToken = Cookies.get("jwt_token")
-    if (jwtToken===undefined){
-        return <Redirect to="/login"/>
-    }
+    // if (jwtToken===undefined){
+    //     return <Redirect to="/login"/>
+    // }
     // Dashboard running
     // Dashboard running again
     return (
         <div>
-            <SideNavBar />
+
             <h1 className="dashboard-container">Dashboard</h1>
-            <Footer />
+            
         </div>
     )
 }
