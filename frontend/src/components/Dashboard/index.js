@@ -11,6 +11,7 @@ const Dashboard = () => {
         return <Redirect to="/login"/>
     }
     // Dashboard running
+    // Dashboard running again
     return (
         <div>
             <Header />
