@@ -5,6 +5,7 @@ import Cookies from 'js-cookie'
     
 import { useHistory } from "react-router-dom"
 import './index.css'
+import SideNavBar from '../SideNavBar'
 
 const Home = () =>{
     const history = useHistory()
@@ -15,7 +16,7 @@ const Home = () =>{
 
     return(
             <div>
-                <Header />
+                <SideNavBar />
                 <Footer />
             </div>
         )
