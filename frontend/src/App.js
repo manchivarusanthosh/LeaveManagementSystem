@@ -12,9 +12,9 @@ import Register from './components/RegisterFrom'
 const App = () => (
   <BrowserRouter>
   <Switch>
-  <Route exact path="/">
-    <Redirect to="/home" />
-</Route>
+    <Route exact path="/">
+      <Redirect to="/login"/>
+    </Route>
     <Route exact path="/login" component={LoginForm} />
     <Route exact path="/register" component={Register} />
     <Route exact path="/home" component={Home}/>

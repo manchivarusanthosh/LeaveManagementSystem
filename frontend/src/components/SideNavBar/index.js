@@ -1,28 +1,37 @@
 import { useState } from 'react'
 import SideNav, { MenuIcon } from 'react-simple-sidenav';
 import pcsLogo from '../Images/pcs_logo.png'
-import { Link } from 'react-router-dom';
+import { Link ,useHistory} from 'react-router-dom';
+import Cookies from 'js-cookie'
 import './index.css'
 
 const SideNavBar = () => {
+    const history = useHistory()
     const [showNav, setShowNav] = useState(
         {
             showNav:false
         }
     );
+
+    const logout = () =>{
+        Cookies.remove("jwt_token")
+        history.replace("/login")
+    }
+
     const navItems = [
         <Link to='/home/dashboard'>
-            <p target="_blank" href="someLink">
+            <p>
                 Dashboard
             </p>
         </Link>
         ,
-        <p target="_blank" href="someLink">
+        <p>
           LeaveRequest
         </p>,
-        <p target="_blank" href="someLink">
+        <p>
           Profile
         </p>,
+        <p onClick={logout}>Logout</p>
       ];
 
     return (
