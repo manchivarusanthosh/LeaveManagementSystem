@@ -1,6 +1,10 @@
 .nav-header {
-    display: flex;
-    justify-content: space-around;
+  background-color:#ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-height: 10vh;
+
   }
   
   @media screen and (max-width: 768px) {
@@ -46,12 +50,14 @@
   }
   
   .website-logo {
+    margin: 10px;
     width: 120px;
   }
   
   @media screen and (min-width: 768px) {
     .website-logo {
       width: 100px;
+      margin: 15px;
     }
   }
   

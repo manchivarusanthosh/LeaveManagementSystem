@@ -35,47 +35,10 @@ const Header = () => {
                     src={pcsLogo}
                     alt="website logo"
                 />
-                <ul className="nav-menu">
-                    <Link className="nav-menu-item" to="/home/dashboard">
-                        <li >Dashboard</li>
-                    </Link>
-                    <Link className="nav-menu-item" to='/leaverequest'>
-                        <li >Leave Request</li>
-                    </Link>
-
-                    <li className="nav-menu-item">Coming soon...</li>
-                </ul>
                 <button type="button" className="logout-desktop-btn" onClick={logout}>
                     Logout
                 </button>
             </div>
-            </div>
-            <div className="nav-menu-mobile">
-            <ul className="nav-menu-list-mobile">
-                <li className="nav-menu-item-mobile">
-                    <img
-                        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
-                        alt="nav home"
-                        className="nav-bar-image"
-                    />
-                </li>
-
-                <li className="nav-menu-item-mobile">
-                    <img
-                        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
-                        alt="nav products"
-                        className="nav-bar-image"
-                    />
-                </li>
-
-                <li className="nav-menu-item-mobile">
-                    <img
-                        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"
-                        alt="nav cart"
-                        className="nav-bar-image"
-                    />
-                </li>
-            </ul>
             </div>
         </nav>    
 )

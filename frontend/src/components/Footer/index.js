@@ -2,10 +2,8 @@ import "./index.css"
 
 const Footer = () => {
     return (
-        <div class="col-lg-12 col-md-12">
-            <div className="copyright-area">
+        <div className="footer-container">
                 © 2021 PCS IT Solutions Pvt. Ltd. All rights reserved.<br></br>
-            </div>
         </div>
     )
 }
