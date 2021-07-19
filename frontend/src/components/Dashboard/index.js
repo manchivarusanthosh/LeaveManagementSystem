@@ -3,6 +3,7 @@ import Footer from '../Footer'
 import './index.css'
 import Cookies from 'js-cookie'
 import { Redirect } from 'react-router'
+import SideNavBar from '../SideNavBar'
 
 
 const Dashboard = () => {
@@ -14,7 +15,7 @@ const Dashboard = () => {
     // Dashboard running again
     return (
         <div>
-            <Header />
+            <SideNavBar />
             <h1 className="dashboard-container">Dashboard</h1>
             <Footer />
         </div>

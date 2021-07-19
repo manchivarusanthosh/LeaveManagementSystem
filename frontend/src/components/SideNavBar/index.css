@@ -1,0 +1,10 @@
+.dashboard-logo
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.list-items
+{
+    text-align: center;
+}
